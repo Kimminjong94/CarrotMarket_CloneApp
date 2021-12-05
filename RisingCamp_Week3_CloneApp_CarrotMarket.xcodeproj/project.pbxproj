@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186201086DC3A55AB1A5E4AC /* Pods_RisingCamp_Week3_CloneApp_CarrotMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B96B9D283C7BBA3D1F1F444 /* Pods_RisingCamp_Week3_CloneApp_CarrotMarket.framework */; };
 		587104D4275BA0930000A7EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587104D3275BA0930000A7EA /* AppDelegate.swift */; };
 		587104D6275BA0930000A7EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587104D5275BA0930000A7EA /* SceneDelegate.swift */; };
-		587104D8275BA0930000A7EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587104D7275BA0930000A7EA /* ViewController.swift */; };
 		587104DB275BA0930000A7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587104D9275BA0930000A7EA /* Main.storyboard */; };
 		587104DD275BA0940000A7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587104DC275BA0940000A7EA /* Assets.xcassets */; };
 		587104E0275BA0940000A7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587104DE275BA0940000A7EA /* LaunchScreen.storyboard */; };
+		587104E8275BB0DD0000A7EA /* HomeSearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587104E7275BB0DD0000A7EA /* HomeSearchBarViewController.swift */; };
+		587104EA275BB8A50000A7EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587104E9275BB8A50000A7EA /* HomeViewController.swift */; };
+		587104EC275BBB6A0000A7EA /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587104EB275BBB690000A7EA /* HomeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		587104D0275BA0930000A7EA /* RisingCamp_Week3_CloneApp_CarrotMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RisingCamp_Week3_CloneApp_CarrotMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587104D3275BA0930000A7EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		587104D5275BA0930000A7EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		587104D7275BA0930000A7EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		587104DA275BA0930000A7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		587104DC275BA0940000A7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		587104DF275BA0940000A7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		587104E1275BA0940000A7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587104E7275BB0DD0000A7EA /* HomeSearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchBarViewController.swift; sourceTree = "<group>"; };
+		587104E9275BB8A50000A7EA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		587104EB275BBB690000A7EA /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		5B96B9D283C7BBA3D1F1F444 /* Pods_RisingCamp_Week3_CloneApp_CarrotMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RisingCamp_Week3_CloneApp_CarrotMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67DC229451668B3906A779CE /* Pods-RisingCamp_Week3_CloneApp_CarrotMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingCamp_Week3_CloneApp_CarrotMarket.release.xcconfig"; path = "Target Support Files/Pods-RisingCamp_Week3_CloneApp_CarrotMarket/Pods-RisingCamp_Week3_CloneApp_CarrotMarket.release.xcconfig"; sourceTree = "<group>"; };
+		9A4ED97E249B982FE46540C4 /* Pods-RisingCamp_Week3_CloneApp_CarrotMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingCamp_Week3_CloneApp_CarrotMarket.debug.xcconfig"; path = "Target Support Files/Pods-RisingCamp_Week3_CloneApp_CarrotMarket/Pods-RisingCamp_Week3_CloneApp_CarrotMarket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186201086DC3A55AB1A5E4AC /* Pods_RisingCamp_Week3_CloneApp_CarrotMarket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				587104D2275BA0930000A7EA /* RisingCamp_Week3_CloneApp_CarrotMarket */,
 				587104D1275BA0930000A7EA /* Products */,
+				CDF316195D4EC795EE36DBB6 /* Pods */,
+				EFBD33F38CDBA394C39CCE34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +69,33 @@
 			children = (
 				587104D3275BA0930000A7EA /* AppDelegate.swift */,
 				587104D5275BA0930000A7EA /* SceneDelegate.swift */,
-				587104D7275BA0930000A7EA /* ViewController.swift */,
+				587104E9275BB8A50000A7EA /* HomeViewController.swift */,
+				587104EB275BBB690000A7EA /* HomeTableViewCell.swift */,
+				587104E7275BB0DD0000A7EA /* HomeSearchBarViewController.swift */,
 				587104D9275BA0930000A7EA /* Main.storyboard */,
 				587104DC275BA0940000A7EA /* Assets.xcassets */,
 				587104DE275BA0940000A7EA /* LaunchScreen.storyboard */,
 				587104E1275BA0940000A7EA /* Info.plist */,
 			);
 			path = RisingCamp_Week3_CloneApp_CarrotMarket;
+			sourceTree = "<group>";
+		};
+		CDF316195D4EC795EE36DBB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A4ED97E249B982FE46540C4 /* Pods-RisingCamp_Week3_CloneApp_CarrotMarket.debug.xcconfig */,
+				67DC229451668B3906A779CE /* Pods-RisingCamp_Week3_CloneApp_CarrotMarket.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EFBD33F38CDBA394C39CCE34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B96B9D283C7BBA3D1F1F444 /* Pods_RisingCamp_Week3_CloneApp_CarrotMarket.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 587104E4275BA0940000A7EA /* Build configuration list for PBXNativeTarget "RisingCamp_Week3_CloneApp_CarrotMarket" */;
 			buildPhases = (
+				83126CEE95F9F2BC2C2BCD7B /* [CP] Check Pods Manifest.lock */,
 				587104CC275BA0930000A7EA /* Sources */,
 				587104CD275BA0930000A7EA /* Frameworks */,
 				587104CE275BA0930000A7EA /* Resources */,
+				A2C1574539F75434D78BC4AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +166,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		83126CEE95F9F2BC2C2BCD7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RisingCamp_Week3_CloneApp_CarrotMarket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C1574539F75434D78BC4AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RisingCamp_Week3_CloneApp_CarrotMarket/Pods-RisingCamp_Week3_CloneApp_CarrotMarket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RisingCamp_Week3_CloneApp_CarrotMarket/Pods-RisingCamp_Week3_CloneApp_CarrotMarket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RisingCamp_Week3_CloneApp_CarrotMarket/Pods-RisingCamp_Week3_CloneApp_CarrotMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		587104CC275BA0930000A7EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				587104D8275BA0930000A7EA /* ViewController.swift in Sources */,
+				587104E8275BB0DD0000A7EA /* HomeSearchBarViewController.swift in Sources */,
 				587104D4275BA0930000A7EA /* AppDelegate.swift in Sources */,
 				587104D6275BA0930000A7EA /* SceneDelegate.swift in Sources */,
+				587104EA275BB8A50000A7EA /* HomeViewController.swift in Sources */,
+				587104EC275BBB6A0000A7EA /* HomeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +361,7 @@
 		};
 		587104E5275BA0940000A7EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4ED97E249B982FE46540C4 /* Pods-RisingCamp_Week3_CloneApp_CarrotMarket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +390,7 @@
 		};
 		587104E6275BA0940000A7EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DC229451668B3906A779CE /* Pods-RisingCamp_Week3_CloneApp_CarrotMarket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
