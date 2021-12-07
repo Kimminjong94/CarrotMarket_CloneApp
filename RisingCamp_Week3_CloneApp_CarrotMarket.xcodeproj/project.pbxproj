@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		186201086DC3A55AB1A5E4AC /* Pods_RisingCamp_Week3_CloneApp_CarrotMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B96B9D283C7BBA3D1F1F444 /* Pods_RisingCamp_Week3_CloneApp_CarrotMarket.framework */; };
-		58412892275DEE8B00253069 /* NavigationBarCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58412891275DEE8B00253069 /* NavigationBarCollectionViewController.swift */; };
+		58280FE8275F4E520035F385 /* myTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58280FE7275F4E510035F385 /* myTableViewCell.xib */; };
+		58280FEC275F546E0035F385 /* DynamicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58280FEB275F546E0035F385 /* DynamicTableViewCell.swift */; };
+		58280FEE275F88C10035F385 /* DynamicDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58280FED275F88C10035F385 /* DynamicDetailController.swift */; };
 		58412894275DF06900253069 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58412893275DF06900253069 /* CollectionViewCell.swift */; };
 		587104D4275BA0930000A7EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587104D3275BA0930000A7EA /* AppDelegate.swift */; };
 		587104D6275BA0930000A7EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587104D5275BA0930000A7EA /* SceneDelegate.swift */; };
@@ -21,10 +23,13 @@
 		587C9B7B275CD02E00312456 /* 상품구성항목.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587C9B7A275CD02E00312456 /* 상품구성항목.swift */; };
 		587C9B7D275CD08400312456 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587C9B7C275CD08400312456 /* DataModel.swift */; };
 		58A14CFC275CAC6D0056B106 /* HomeProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A14CFB275CAC6D0056B106 /* HomeProductData.swift */; };
+		58D9DF15275E1E2E002B1B8C /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D9DF14275E1E2E002B1B8C /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		58412891275DEE8B00253069 /* NavigationBarCollectionViewController.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = NavigationBarCollectionViewController.swift; sourceTree = "<group>"; };
+		58280FE7275F4E510035F385 /* myTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myTableViewCell.xib; sourceTree = "<group>"; };
+		58280FEB275F546E0035F385 /* DynamicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewCell.swift; sourceTree = "<group>"; };
+		58280FED275F88C10035F385 /* DynamicDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicDetailController.swift; sourceTree = "<group>"; };
 		58412893275DF06900253069 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		587104D0275BA0930000A7EA /* RisingCamp_Week3_CloneApp_CarrotMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RisingCamp_Week3_CloneApp_CarrotMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587104D3275BA0930000A7EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +44,7 @@
 		587C9B7A275CD02E00312456 /* 상품구성항목.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "상품구성항목.swift"; path = "/Users/kimminjong/Desktop/RisingCamp_Week3_CloneApp_CarrotMarket/상품구성항목.swift"; sourceTree = "<absolute>"; };
 		587C9B7C275CD08400312456 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataModel.swift; path = /Users/kimminjong/Desktop/RisingCamp_Week3_CloneApp_CarrotMarket/RisingCamp_Week3_CloneApp_CarrotMarket/DataModel.swift; sourceTree = "<absolute>"; };
 		58A14CFB275CAC6D0056B106 /* HomeProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeProductData.swift; path = /Users/kimminjong/Desktop/RisingCamp_Week3_CloneApp_CarrotMarket/HomeProductData.swift; sourceTree = "<absolute>"; };
+		58D9DF14275E1E2E002B1B8C /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		5B96B9D283C7BBA3D1F1F444 /* Pods_RisingCamp_Week3_CloneApp_CarrotMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RisingCamp_Week3_CloneApp_CarrotMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67DC229451668B3906A779CE /* Pods-RisingCamp_Week3_CloneApp_CarrotMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingCamp_Week3_CloneApp_CarrotMarket.release.xcconfig"; path = "Target Support Files/Pods-RisingCamp_Week3_CloneApp_CarrotMarket/Pods-RisingCamp_Week3_CloneApp_CarrotMarket.release.xcconfig"; sourceTree = "<group>"; };
 		9A4ED97E249B982FE46540C4 /* Pods-RisingCamp_Week3_CloneApp_CarrotMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingCamp_Week3_CloneApp_CarrotMarket.debug.xcconfig"; path = "Target Support Files/Pods-RisingCamp_Week3_CloneApp_CarrotMarket/Pods-RisingCamp_Week3_CloneApp_CarrotMarket.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,8 +65,11 @@
 		58412890275DEE5D00253069 /* 동네생활 */ = {
 			isa = PBXGroup;
 			children = (
-				58412891275DEE8B00253069 /* NavigationBarCollectionViewController.swift */,
 				58412893275DF06900253069 /* CollectionViewCell.swift */,
+				58D9DF14275E1E2E002B1B8C /* CollectionViewController.swift */,
+				58280FEB275F546E0035F385 /* DynamicTableViewCell.swift */,
+				58280FED275F88C10035F385 /* DynamicDetailController.swift */,
+				58280FE7275F4E510035F385 /* myTableViewCell.xib */,
 			);
 			name = "동네생활";
 			path = ..;
@@ -199,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				587104E0275BA0940000A7EA /* LaunchScreen.storyboard in Resources */,
+				58280FE8275F4E520035F385 /* myTableViewCell.xib in Resources */,
 				587104DD275BA0940000A7EA /* Assets.xcassets in Resources */,
 				587104DB275BA0930000A7EA /* Main.storyboard in Resources */,
 			);
@@ -257,12 +267,14 @@
 				587C9B7B275CD02E00312456 /* 상품구성항목.swift in Sources */,
 				587C9B79275CC29D00312456 /* HomeDetailViewController.swift in Sources */,
 				58A14CFC275CAC6D0056B106 /* HomeProductData.swift in Sources */,
+				58280FEC275F546E0035F385 /* DynamicTableViewCell.swift in Sources */,
 				587104E8275BB0DD0000A7EA /* HomeSearchBarViewController.swift in Sources */,
 				587104D4275BA0930000A7EA /* AppDelegate.swift in Sources */,
 				587C9B7D275CD08400312456 /* DataModel.swift in Sources */,
-				58412892275DEE8B00253069 /* NavigationBarCollectionViewController.swift in Sources */,
+				58280FEE275F88C10035F385 /* DynamicDetailController.swift in Sources */,
 				587104D6275BA0930000A7EA /* SceneDelegate.swift in Sources */,
 				587104EA275BB8A50000A7EA /* HomeViewController.swift in Sources */,
+				58D9DF15275E1E2E002B1B8C /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

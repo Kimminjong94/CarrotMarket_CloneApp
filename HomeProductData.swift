@@ -13,17 +13,13 @@ class HomeProductData: UITableViewCell {
     @IBOutlet weak var showProductImage: UIImageView!
     
     
-    
+    var name:String = ""
+    var price:Int = 10
+    var img:UIImage? = UIImage(named: "아이폰12")
 
-    public func updateUI(cellData: 상품구성항목) {
-        let name = cellData.name
-        let price = cellData.price
-        let image = cellData.productImage
-        
-        self.showProductNameLabel.text = name
-        self.showProductPriceLabel.text = "\(price)원"
-        self.showProductImage.image = image
 
+    override class func awakeFromNib() {
+        super.awakeFromNib()
     }
     
     

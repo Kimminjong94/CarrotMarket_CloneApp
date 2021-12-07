@@ -9,12 +9,10 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var collectionViewLabel: UILabel!
+    var name: String? = ""
     
-    @IBOutlet weak var collectionNameLabel: UILabel!
-    
-    func configure(with nameLabel: String) {
-        collectionNameLabel.text = nameLabel
-    }
-    
+
+
 }
 

@@ -16,31 +16,22 @@ class HomeDetailViewController: UIViewController {
     
     @IBOutlet weak var DetailProductPrice: UILabel!
     
-//    var imageUrl: String?
-    var name: String? = ""
+    var name = ""
+    var price: Int?
+//    var img: UIImage? = UIImage(named: "")
     
-    func updateUI(cellData: 상품구성항목) {
-        let name = cellData.name
-        let price = cellData.price
-        let image = cellData.productImage
-
-        self.DetailProductName?.text = name
-        self.DetailProductPrice?.text = "\(price)원"
-        self.DetailImageMain?.image = image
-
-    }
     
-
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        DetailProductName.text = name
-
-
+        DetailProductName?.text = name
+        DetailProductPrice?.text = "\(price)원"
+        DetailImageMain.image = UIImage(named: name)
+        
+    }
 
     }
-    
 
-}
+
+
