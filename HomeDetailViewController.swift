@@ -16,17 +16,16 @@ class HomeDetailViewController: UIViewController {
     
     @IBOutlet weak var DetailProductPrice: UILabel!
     
-    var name = ""
+    var name:String = ""
     var price: Int?
-//    var img: UIImage? = UIImage(named: "")
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        DetailProductName?.text = name
-        DetailProductPrice?.text = "\(price)원"
+        DetailProductName.text = name
+        DetailProductPrice.text = "\(price!)원"
         DetailImageMain.image = UIImage(named: name)
         
     }
