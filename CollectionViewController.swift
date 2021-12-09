@@ -12,6 +12,8 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
     @IBOutlet weak var cView: UICollectionView!
     
     @IBOutlet weak var myDynamicTableView: UITableView!
+    
+    
     let contentArray = [
         "계절이나 유행에 따라서 계속 바뀌는 나의 관심사! 휴대폰을 사고 나면 한동안은 휴대폰 케이스만 찾아다니고, TV에서 맛있는 음식이 나오면 그 음식의 맛집들을 찾아다니기도 해요! ",
         
@@ -54,8 +56,6 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
         let cell = cView.dequeueReusableCell(withReuseIdentifier: "CollectionCell", for: indexPath) as! CollectionViewCell
                 
         cell.collectionViewLabel.text = dataSource[indexPath.row]
-        cell.backgroundColor = UIColor.lightGray
-        
         
         return cell
     }

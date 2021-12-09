@@ -18,7 +18,7 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="동네질문" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdI-k5-m5b">
                         <rect key="frame" x="20" y="21" width="199" height="16"/>
                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q. 옷수선 잘하" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8u-bi-5Tv">
@@ -51,6 +51,7 @@
                         </subviews>
                     </stackView>
                 </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstAttribute="trailingMargin" secondItem="g8u-bi-5Tv" secondAttribute="trailing" constant="8" id="8KM-sW-3Rm"/>
                     <constraint firstItem="h8r-zy-7tG" firstAttribute="leading" secondItem="gsg-g0-zzU" secondAttribute="leading" constant="20" symbolic="YES" id="CUM-jN-v7S"/>
@@ -68,6 +69,7 @@
                     <constraint firstItem="ygb-M5-i2v" firstAttribute="top" secondItem="g8u-bi-5Tv" secondAttribute="bottom" constant="20.5" id="ynQ-mn-0QL"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="locationLabel" destination="ygb-M5-i2v" id="IOi-xc-gdD"/>
                 <outlet property="questionLabel" destination="g8u-bi-5Tv" id="jxY-zb-i2k"/>

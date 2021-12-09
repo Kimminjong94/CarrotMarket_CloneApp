@@ -24,6 +24,7 @@
 		58BA839C276070500076B7F9 /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA839B276070500076B7F9 /* chatViewController.swift */; };
 		58BA839E27607C6B0076B7F9 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA839D27607C6B0076B7F9 /* ChatTableViewCell.swift */; };
 		58BA83A027607D640076B7F9 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA839F27607D640076B7F9 /* Cell.swift */; };
+		58BEB9042762009000C81273 /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BEB9032762009000C81273 /* Do.swift */; };
 		58D6B019276098D9000EF30B /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6B018276098D8000EF30B /* MyViewController.swift */; };
 		58D6B02327609C33000EF30B /* SectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6B02127609C33000EF30B /* SectionTableViewCell.swift */; };
 		58D6B02427609C33000EF30B /* SectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D6B02227609C33000EF30B /* SectionTableViewCell.xib */; };
@@ -53,6 +54,7 @@
 		58BA839B276070500076B7F9 /* chatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
 		58BA839D27607C6B0076B7F9 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		58BA839F27607D640076B7F9 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		58BEB9032762009000C81273 /* Do.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do.swift; sourceTree = "<group>"; };
 		58D6B018276098D8000EF30B /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		58D6B02127609C33000EF30B /* SectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewCell.swift; sourceTree = "<group>"; };
 		58D6B02227609C33000EF30B /* SectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionTableViewCell.xib; sourceTree = "<group>"; };
@@ -81,11 +83,12 @@
 		58412890275DEE5D00253069 /* 동네생활 */ = {
 			isa = PBXGroup;
 			children = (
-				58412893275DF06900253069 /* CollectionViewCell.swift */,
-				58D9DF14275E1E2E002B1B8C /* CollectionViewController.swift */,
-				58280FEB275F546E0035F385 /* DynamicTableViewCell.swift */,
 				58280FED275F88C10035F385 /* DynamicDetailController.swift */,
+				58280FEB275F546E0035F385 /* DynamicTableViewCell.swift */,
+				58D9DF14275E1E2E002B1B8C /* CollectionViewController.swift */,
+				58412893275DF06900253069 /* CollectionViewCell.swift */,
 				58280FE7275F4E510035F385 /* myTableViewCell.xib */,
+				58BEB9032762009000C81273 /* Do.swift */,
 			);
 			name = "동네생활";
 			path = ..;
@@ -325,6 +328,7 @@
 				58D6B02C2760E597000EF30B /* LocationCollectionViewCell.swift in Sources */,
 				58BA839E27607C6B0076B7F9 /* ChatTableViewCell.swift in Sources */,
 				587104EA275BB8A50000A7EA /* HomeViewController.swift in Sources */,
+				58BEB9042762009000C81273 /* Do.swift in Sources */,
 				58D9DF15275E1E2E002B1B8C /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
