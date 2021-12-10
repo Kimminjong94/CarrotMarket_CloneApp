@@ -10,8 +10,7 @@ import UIKit
 class DynamicDetailController: UIViewController {
 
     @IBOutlet weak var detailLabel: UILabel!
-    
-    
+        
     var name:String = ""
     
     override func viewDidLoad() {
@@ -21,6 +20,5 @@ class DynamicDetailController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-
+    
 }

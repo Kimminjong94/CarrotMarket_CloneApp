@@ -16,8 +16,11 @@ class HomeDetailViewController: UIViewController {
     
     @IBOutlet weak var DetailProductPrice: UILabel!
     
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
     var name:String = ""
-    var price: Int?
+    var price: String = ""
+    var desc: String = ""
     
     
     
@@ -25,8 +28,9 @@ class HomeDetailViewController: UIViewController {
         super.viewDidLoad()
 
         DetailProductName.text = name
-        DetailProductPrice.text = "\(price!)원"
-        DetailImageMain.image = UIImage(named: name)
+        DetailProductPrice.text = price
+        descriptionLabel.text = desc
+//        DetailImageMain.image = UIImage(named: name)
         
     }
 

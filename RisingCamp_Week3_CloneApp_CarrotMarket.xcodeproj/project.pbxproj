@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		186201086DC3A55AB1A5E4AC /* Pods_RisingCamp_Week3_CloneApp_CarrotMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B96B9D283C7BBA3D1F1F444 /* Pods_RisingCamp_Week3_CloneApp_CarrotMarket.framework */; };
+		580D72FD2762F3930024FAE2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D72FC2762F3930024FAE2 /* AddViewController.swift */; };
 		58280FE8275F4E520035F385 /* myTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58280FE7275F4E510035F385 /* myTableViewCell.xib */; };
 		58280FEC275F546E0035F385 /* DynamicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58280FEB275F546E0035F385 /* DynamicTableViewCell.swift */; };
 		58280FEE275F88C10035F385 /* DynamicDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58280FED275F88C10035F385 /* DynamicDetailController.swift */; };
 		58412894275DF06900253069 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58412893275DF06900253069 /* CollectionViewCell.swift */; };
+		585C904227635450000AF000 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C904127635450000AF000 /* Home.swift */; };
+		585C904427635470000AF000 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C904327635470000AF000 /* TaskCell.swift */; };
+		585C904627635827000AF000 /* AddTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C904527635826000AF000 /* AddTaskController.swift */; };
 		587104D4275BA0930000A7EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587104D3275BA0930000A7EA /* AppDelegate.swift */; };
 		587104D6275BA0930000A7EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587104D5275BA0930000A7EA /* SceneDelegate.swift */; };
 		587104DB275BA0930000A7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587104D9275BA0930000A7EA /* Main.storyboard */; };
@@ -24,7 +28,10 @@
 		58BA839C276070500076B7F9 /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA839B276070500076B7F9 /* chatViewController.swift */; };
 		58BA839E27607C6B0076B7F9 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA839D27607C6B0076B7F9 /* ChatTableViewCell.swift */; };
 		58BA83A027607D640076B7F9 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA839F27607D640076B7F9 /* Cell.swift */; };
-		58BEB9042762009000C81273 /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BEB9032762009000C81273 /* Do.swift */; };
+		58BEB9062762168600C81273 /* Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BEB9052762168600C81273 /* Add.swift */; };
+		58CDCB6227633634009237FF /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CDCB6127633634009237FF /* NewViewController.swift */; };
+		58CDCB642763389B009237FF /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CDCB632763389B009237FF /* NewEntryViewController.swift */; };
+		58CDCB66276338AE009237FF /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CDCB65276338AE009237FF /* NewTaskViewController.swift */; };
 		58D6B019276098D9000EF30B /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6B018276098D8000EF30B /* MyViewController.swift */; };
 		58D6B02327609C33000EF30B /* SectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6B02127609C33000EF30B /* SectionTableViewCell.swift */; };
 		58D6B02427609C33000EF30B /* SectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D6B02227609C33000EF30B /* SectionTableViewCell.xib */; };
@@ -36,10 +43,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		580D72FC2762F3930024FAE2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		58280FE7275F4E510035F385 /* myTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myTableViewCell.xib; sourceTree = "<group>"; };
 		58280FEB275F546E0035F385 /* DynamicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewCell.swift; sourceTree = "<group>"; };
 		58280FED275F88C10035F385 /* DynamicDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicDetailController.swift; sourceTree = "<group>"; };
 		58412893275DF06900253069 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		585C904127635450000AF000 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		585C904327635470000AF000 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		585C904527635826000AF000 /* AddTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskController.swift; sourceTree = "<group>"; };
 		587104D0275BA0930000A7EA /* RisingCamp_Week3_CloneApp_CarrotMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RisingCamp_Week3_CloneApp_CarrotMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587104D3275BA0930000A7EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		587104D5275BA0930000A7EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +65,10 @@
 		58BA839B276070500076B7F9 /* chatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
 		58BA839D27607C6B0076B7F9 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		58BA839F27607D640076B7F9 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
-		58BEB9032762009000C81273 /* Do.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do.swift; sourceTree = "<group>"; };
+		58BEB9052762168600C81273 /* Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add.swift; sourceTree = "<group>"; };
+		58CDCB6127633634009237FF /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		58CDCB632763389B009237FF /* NewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryViewController.swift; sourceTree = "<group>"; };
+		58CDCB65276338AE009237FF /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
 		58D6B018276098D8000EF30B /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		58D6B02127609C33000EF30B /* SectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewCell.swift; sourceTree = "<group>"; };
 		58D6B02227609C33000EF30B /* SectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionTableViewCell.xib; sourceTree = "<group>"; };
@@ -88,7 +102,7 @@
 				58D9DF14275E1E2E002B1B8C /* CollectionViewController.swift */,
 				58412893275DF06900253069 /* CollectionViewCell.swift */,
 				58280FE7275F4E510035F385 /* myTableViewCell.xib */,
-				58BEB9032762009000C81273 /* Do.swift */,
+				58BEB9052762168600C81273 /* Add.swift */,
 			);
 			name = "동네생활";
 			path = ..;
@@ -98,11 +112,26 @@
 			isa = PBXGroup;
 			children = (
 				587104E9275BB8A50000A7EA /* HomeViewController.swift */,
-				587C9B78275CC29D00312456 /* HomeDetailViewController.swift */,
+				580D72FC2762F3930024FAE2 /* AddViewController.swift */,
 				58A14CFB275CAC6D0056B106 /* HomeProductData.swift */,
-				587104E7275BB0DD0000A7EA /* HomeSearchBarViewController.swift */,
+				58CDCB6127633634009237FF /* NewViewController.swift */,
+				58CDCB632763389B009237FF /* NewEntryViewController.swift */,
+				58CDCB65276338AE009237FF /* NewTaskViewController.swift */,
 			);
 			name = "홈화면";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		585C90402763542E000AF000 /* 홈 */ = {
+			isa = PBXGroup;
+			children = (
+				585C904127635450000AF000 /* Home.swift */,
+				585C904327635470000AF000 /* TaskCell.swift */,
+				585C904527635826000AF000 /* AddTaskController.swift */,
+				587C9B78275CC29D00312456 /* HomeDetailViewController.swift */,
+				587104E7275BB0DD0000A7EA /* HomeSearchBarViewController.swift */,
+			);
+			name = "홈";
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -128,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				587104D9275BA0930000A7EA /* Main.storyboard */,
+				585C90402763542E000AF000 /* 홈 */,
 				584B564F275CA8D500DB560F /* 홈화면 */,
 				58412890275DEE5D00253069 /* 동네생활 */,
 				58D6B0272760DCB3000EF30B /* 내근처 */,
@@ -314,22 +344,29 @@
 				58412894275DF06900253069 /* CollectionViewCell.swift in Sources */,
 				58D6B0262760A3C6000EF30B /* SectionCell.swift in Sources */,
 				587C9B79275CC29D00312456 /* HomeDetailViewController.swift in Sources */,
+				58BEB9062762168600C81273 /* Add.swift in Sources */,
+				58CDCB642763389B009237FF /* NewEntryViewController.swift in Sources */,
 				58A14CFC275CAC6D0056B106 /* HomeProductData.swift in Sources */,
 				58D6B0292760DCD1000EF30B /* LocationViewController.swift in Sources */,
 				58D6B02327609C33000EF30B /* SectionTableViewCell.swift in Sources */,
 				58BA839C276070500076B7F9 /* chatViewController.swift in Sources */,
 				58280FEC275F546E0035F385 /* DynamicTableViewCell.swift in Sources */,
+				58CDCB6227633634009237FF /* NewViewController.swift in Sources */,
 				58BA83A027607D640076B7F9 /* Cell.swift in Sources */,
+				585C904627635827000AF000 /* AddTaskController.swift in Sources */,
+				580D72FD2762F3930024FAE2 /* AddViewController.swift in Sources */,
 				587104E8275BB0DD0000A7EA /* HomeSearchBarViewController.swift in Sources */,
 				587104D4275BA0930000A7EA /* AppDelegate.swift in Sources */,
 				58280FEE275F88C10035F385 /* DynamicDetailController.swift in Sources */,
 				587104D6275BA0930000A7EA /* SceneDelegate.swift in Sources */,
 				58D6B019276098D9000EF30B /* MyViewController.swift in Sources */,
 				58D6B02C2760E597000EF30B /* LocationCollectionViewCell.swift in Sources */,
+				585C904427635470000AF000 /* TaskCell.swift in Sources */,
 				58BA839E27607C6B0076B7F9 /* ChatTableViewCell.swift in Sources */,
 				587104EA275BB8A50000A7EA /* HomeViewController.swift in Sources */,
-				58BEB9042762009000C81273 /* Do.swift in Sources */,
 				58D9DF15275E1E2E002B1B8C /* CollectionViewController.swift in Sources */,
+				585C904227635450000AF000 /* Home.swift in Sources */,
+				58CDCB66276338AE009237FF /* NewTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
