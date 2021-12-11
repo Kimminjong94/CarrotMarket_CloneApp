@@ -21,6 +21,7 @@ class HomeDetailViewController: UIViewController {
     var name:String = ""
     var price: String = ""
     var desc: String = ""
+    var img: UIImage?
     
     
     
@@ -30,7 +31,7 @@ class HomeDetailViewController: UIViewController {
         DetailProductName.text = name
         DetailProductPrice.text = price
         descriptionLabel.text = desc
-//        DetailImageMain.image = UIImage(named: name)
+        DetailImageMain.image = img
         
     }
 

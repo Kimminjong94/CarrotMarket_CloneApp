@@ -127,6 +127,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="YIJ-at-JUj"/>
                     <connections>
+                        <outlet property="DetailImageMain" destination="96q-ey-f0g" id="B15-Ly-o7T"/>
                         <outlet property="DetailProductName" destination="vgg-nL-tCX" id="Bog-d7-JWd"/>
                         <outlet property="DetailProductPrice" destination="LC7-xN-Lec" id="zqp-iq-AdC"/>
                         <outlet property="descriptionLabel" destination="Gzw-TI-JwB" id="lol-FS-ZrM"/>
@@ -392,7 +393,7 @@
             </objects>
             <point key="canvasLocation" x="1908.6956521739132" y="975.66964285714278"/>
         </scene>
-        <!--Add-->
+        <!--동네생활 글쓰기-->
         <scene sceneID="jIh-cw-O8R">
             <objects>
                 <viewController id="jkX-Dw-1jo" customClass="Add" customModule="RisingCamp_Week3_CloneApp_CarrotMarket" customModuleProvider="target" sceneMemberID="viewController">
@@ -400,8 +401,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XTp-mS-yVO">
-                                <rect key="frame" x="20" y="431" width="356" height="34"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="게시글주제" translatesAutoresizingMaskIntoConstraints="NO" id="JDJ-4B-krJ">
+                                <rect key="frame" x="5" y="88" width="404" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="ghL-b6-McC"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="글작성전에" translatesAutoresizingMaskIntoConstraints="NO" id="Yw3-Og-ah6">
+                                <rect key="frame" x="0.0" y="206" width="414" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="6AO-Ju-vK3"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="사진이미지" translatesAutoresizingMaskIntoConstraints="NO" id="7bU-k4-oQn">
+                                <rect key="frame" x="10" y="783" width="154" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="He5-Fc-Nil"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="사직제2동 우리동네 관련된 질문이나 이야기를 해보세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XTp-mS-yVO">
+                                <rect key="frame" x="10" y="404" width="394" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -409,13 +428,21 @@
                         <viewLayoutGuide key="safeArea" id="oyk-ce-GWr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="XTp-mS-yVO" firstAttribute="leading" secondItem="oyk-ce-GWr" secondAttribute="leading" constant="20" id="Cnr-0f-qFx"/>
-                            <constraint firstItem="oyk-ce-GWr" firstAttribute="bottom" secondItem="XTp-mS-yVO" secondAttribute="bottom" constant="348" id="UNd-ra-f15"/>
-                            <constraint firstItem="oyk-ce-GWr" firstAttribute="trailing" secondItem="XTp-mS-yVO" secondAttribute="trailing" constant="38" id="hOa-XF-yGY"/>
-                            <constraint firstItem="XTp-mS-yVO" firstAttribute="top" secondItem="oyk-ce-GWr" secondAttribute="top" constant="343" id="sHN-5e-52m"/>
+                            <constraint firstItem="XTp-mS-yVO" firstAttribute="top" secondItem="Yw3-Og-ah6" secondAttribute="bottom" constant="8" symbolic="YES" id="07q-mr-xuA"/>
+                            <constraint firstItem="oyk-ce-GWr" firstAttribute="trailing" secondItem="JDJ-4B-krJ" secondAttribute="trailing" constant="5" id="34W-S5-TDh"/>
+                            <constraint firstItem="JDJ-4B-krJ" firstAttribute="leading" secondItem="oyk-ce-GWr" secondAttribute="leading" constant="5" id="35L-N1-Elm"/>
+                            <constraint firstItem="Yw3-Og-ah6" firstAttribute="leading" secondItem="oyk-ce-GWr" secondAttribute="leading" id="5ah-94-fJI"/>
+                            <constraint firstItem="oyk-ce-GWr" firstAttribute="trailing" secondItem="7bU-k4-oQn" secondAttribute="trailing" constant="250" id="9Oq-FS-lWS"/>
+                            <constraint firstItem="Yw3-Og-ah6" firstAttribute="top" secondItem="JDJ-4B-krJ" secondAttribute="bottom" constant="8" symbolic="YES" id="DAU-ES-xnN"/>
+                            <constraint firstItem="oyk-ce-GWr" firstAttribute="trailing" secondItem="Yw3-Og-ah6" secondAttribute="trailing" id="QMK-ny-z5k"/>
+                            <constraint firstItem="7bU-k4-oQn" firstAttribute="leading" secondItem="oyk-ce-GWr" secondAttribute="leading" constant="10" id="TW9-2p-bDi"/>
+                            <constraint firstItem="oyk-ce-GWr" firstAttribute="trailing" secondItem="XTp-mS-yVO" secondAttribute="trailing" constant="10" id="cbt-FR-I3S"/>
+                            <constraint firstItem="7bU-k4-oQn" firstAttribute="bottom" secondItem="oyk-ce-GWr" secondAttribute="bottom" id="f72-iu-0Q8"/>
+                            <constraint firstItem="XTp-mS-yVO" firstAttribute="leading" secondItem="oyk-ce-GWr" secondAttribute="leading" constant="10" id="mUd-s3-fSU"/>
+                            <constraint firstItem="JDJ-4B-krJ" firstAttribute="top" secondItem="oyk-ce-GWr" secondAttribute="top" id="whh-yt-DhS"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="rl2-pf-lwg">
+                    <navigationItem key="navigationItem" title="동네생활 글쓰기" id="rl2-pf-lwg">
                         <barButtonItem key="leftBarButtonItem" image="xmark" catalog="system" id="wzH-Mt-UjE">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
@@ -432,7 +459,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vGw-fn-Sv5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2648" y="976"/>
+            <point key="canvasLocation" x="2647.826086956522" y="975.66964285714278"/>
         </scene>
         <!-- -->
         <scene sceneID="c1a-3l-DXw">
@@ -1244,8 +1271,10 @@
         <image name="trash" catalog="system" width="121" height="128"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <image name="가격제안하기1" width="247" height="50"/>
+        <image name="게시글주제" width="1084" height="178"/>
         <image name="공감하기" width="1170" height="136"/>
         <image name="관심1" width="265" height="46"/>
+        <image name="글작성전에" width="1102" height="448"/>
         <image name="기본이미지" width="336" height="341"/>
         <image name="나의당근관심목록" width="189" height="254"/>
         <image name="나의당근구매내역" width="183" height="254"/>
@@ -1258,6 +1287,7 @@
         <image name="부적절한 게심루" width="730" height="44"/>
         <image name="사직동딸기" width="1089" height="291"/>
         <image name="사진버튼" width="230" height="216"/>
+        <image name="사진이미지" width="364" height="79"/>
         <image name="아이폰12" width="336" height="342"/>
         <image name="여성의류 끌올" width="376" height="43"/>
         <image name="우리동네 가게소식" width="1170" height="1795"/>

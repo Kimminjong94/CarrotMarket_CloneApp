@@ -12,6 +12,8 @@ class Home: UIViewController, UITableViewDelegate, UITableViewDataSource, AddTas
     @IBOutlet weak var tableView: UITableView!
     var tasks: [Task] = []
     
+    var img:[UIImage?] = [UIImage(named: "아이폰12"), UIImage(named: "핸드폰"), UIImage(named: "머플러"), UIImage(named: "아이패드"), UIImage(named: "기본이미지"), UIImage(named: "아이폰12")]
+    
     
 
 
@@ -29,9 +31,8 @@ class Home: UIViewController, UITableViewDelegate, UITableViewDataSource, AddTas
         
         navigationController?.navigationBar.tintColor = .label
         configureItem()
-
-
     }
+    
     private func configureItem() {
         navigationItem.rightBarButtonItems = [
             UIBarButtonItem(
@@ -69,26 +70,28 @@ class Home: UIViewController, UITableViewDelegate, UITableViewDataSource, AddTas
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TaskCell", for: indexPath) as! TaskCell
         
+//        let item = img[indexPath.row]
         cell.taskNameLabel.text = tasks[indexPath.row].name
         cell.priceNameLabel.text = tasks[indexPath.row].price
-        
-        
-        
+//        guard let cell.taskImageLabel?.image = item else {
+//            return img[indexPath.row]
+//        }
         return cell
     }
     
-        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-            tableView.deselectRow(at: indexPath, animated: true)
-            print("click\(indexPath.row)")
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        print("click\(indexPath.row)")
     
-            let productDetail = storyboard?.instantiateViewController(withIdentifier: "HomeDetailViewController") as! HomeDetailViewController
+        let productDetail = storyboard?.instantiateViewController(withIdentifier: "HomeDetailViewController") as! HomeDetailViewController
     
-            productDetail.name = tasks[indexPath.row].name
-            productDetail.price = tasks[indexPath.row].price
-            productDetail.desc = tasks[indexPath.row].desc
+        productDetail.name = tasks[indexPath.row].name
+        productDetail.price = tasks[indexPath.row].price
+        productDetail.desc = tasks[indexPath.row].desc
+//      productDetail.img = img[indexPath.row]
     
     
-            self.navigationController?.pushViewController(productDetail, animated: true)
+        self.navigationController?.pushViewController(productDetail, animated: true)
         }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -122,13 +125,11 @@ class Task {
     var name = ""
     var price = ""
     var desc = ""
-    var image = UIImage(named: "")
     
-    convenience init(name: String, price: String, desc: String, image: ) {
+    convenience init(name: String, price: String, desc: String) {
         self.init()
         self.name = name
         self.price = price
         self.desc = desc
-        self.image = image
     }
 }
